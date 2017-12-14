@@ -19,5 +19,11 @@ docute.init({
             }
         ]
     },
-    plugins: [evanyou()]
+    plugins: [
+        evanyou() /* ,
+        docuteIframe({
+            prepend:
+                '<script src="https://code.highcharts.com/highcharts.src.js"></script><script src="./samples/dqvue.js"></script>'
+        })*/
+    ]
 });
